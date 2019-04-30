@@ -50,18 +50,18 @@ public class Main2Activity extends AppCompatActivity {
         });
 
         //chengdu
-        findViewById(R.id.button7).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                clicked_btn("http://www.yohomars.com/yohomars/seo/topic/1056/");
-            }
-        });
-
-        //hangzhou
         findViewById(R.id.button8).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 clicked_btn("http://www.yohomars.com/yohomars/seo/topic/286/");
+            }
+        });
+
+        //hangzhou
+        findViewById(R.id.button7).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                clicked_btn("http://www.yohomars.com/yohomars/seo/topic/278/");
             }
         });
 
