@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="372dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:text="Please select the city to search for food"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="55dp"
+        android:text="Beijing" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="55dp"
+        android:text="Guangzhou" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginRight="55dp"
+        android:text="Shanghai" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="55dp"
+        android:text="Shenzhen" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="55dp"
+        android:text="Hangzhou" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginRight="55dp"
+        android:text="Chengdu" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="118dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginRight="55dp"
+        android:text="foods!" />
+
+</LinearLayout>
